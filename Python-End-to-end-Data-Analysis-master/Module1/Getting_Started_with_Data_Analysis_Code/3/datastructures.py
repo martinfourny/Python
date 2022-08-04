@@ -25,7 +25,7 @@ print(s4)
 
 pd.isnull(s4)
 
-s5 = pd.Series(2.71, index=['x', 'y'])
+s5 = pd.Series(2.71, index=['x', 'y',"a"])
 print(s5)
 
 s6 = pd.Series(np.array([2.71, 3.14]), index=['z', 'y'])
