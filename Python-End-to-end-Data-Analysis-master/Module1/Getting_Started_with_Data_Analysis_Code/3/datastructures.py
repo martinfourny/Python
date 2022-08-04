@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+import os
 import pandas as pd
 import numpy as np
 
@@ -65,7 +65,7 @@ print(df4.name)
 df4['award'] = None
 print(df4)
 
-df4 = pd.read_csv('person.csv')
+df4 = pd.read_csv(/person.csv)
 print(df4)
 
 # Reindexing and altering labels
