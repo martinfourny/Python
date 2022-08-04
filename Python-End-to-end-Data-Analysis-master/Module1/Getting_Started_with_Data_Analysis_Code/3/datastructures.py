@@ -65,7 +65,7 @@ print(df4.name)
 df4['award'] = None
 print(df4)
 
-df4 = pd.read_csv(/person.csv)
+df4 = pd.read_csv("person.csv")
 print(df4)
 
 # Reindexing and altering labels
