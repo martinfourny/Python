@@ -51,7 +51,7 @@ df3 = pd.DataFrame(data, columns=['Year', 'Density', 'Median_Age'],
                    index=['a', 'b', 'c', 'd'])
 
 print(df3.index)
-
+print(df3)
 df4 = pd.DataFrame([
         ['Peter', 16, 'pupil', 'TN', 'M', None],
         ['Mary', 21, 'student', 'SG', 'F', None],
@@ -64,8 +64,6 @@ print(df4.name)
 
 df4['award'] = None
 print(df4)
-
-print(df4.ix[1])
 
 df4 = pd.read_csv('person.csv')
 print(df4)
